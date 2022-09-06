@@ -1,0 +1,28 @@
+package com.example.day1;
+
+
+public class Tshirt {
+String color;
+String material;
+String design;
+
+public static void main(String[] args) {
+	Tshirt small = new Tshirt();
+	small.color="red";
+	small.material = "cotton";
+	small.design="round-neck";
+	
+	Tshirt large = new Tshirt();
+	large.color= "orange";
+	large.material = "woll";
+	large.design="chinese-color";
+	
+	Tshirt xl = new Tshirt();
+	xl.color="maroon";
+	xl.material="plastic";
+	xl.design="half-sleeve";
+	
+	
+	System.out.println(small);
+}
+}
